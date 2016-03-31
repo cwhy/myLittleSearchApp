@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    font-size: 16px;
+}
+#main{
+}
+
+#search-form{
+    margin-top: 27.2vh;
+    margin: 27.2vh auto 0 auto;
+    display: table;
+}
+#search-form .mui-textfield{
+    width: 38.2vw;
+    min-width: 10rem;
+}
+#submit-btn{
+    margin-left: 1rem;
+}
+ul#hits{
+    list-style: none;
+    width: 61.8vw;
+    min-width: 10rem;
+    display: table;
+    margin: 2rem auto;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+ul#hits p{
+    padding-right: 2rem;
+}
+ul#hits li{
+    width: 100%;
+    box-shadow: 0 0 2px rgba(0,0,0,.12),0 2px 2px rgba(0,0,0,.2);
+    padding: 2rem;
+    margin: 1rem 0;
+}
